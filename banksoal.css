@@ -1,0 +1,139 @@
+body{
+  background-image: url(2612371.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e6f8f9;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.daftarlogin{
+	float: right;
+	margin-top: 40px;
+	padding-right: 10px;
+}
+
+.login{
+	display: inline-block;
+  right: 20px;
+/*  position: absolute;*/
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #b1e8ed;
+}
+.Daftar{
+	display: inline-block;
+/*  right: -100px;
+  position: absolute;*/
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #b1e8ed;
+}
+
+.menu{
+	display: inline-block;
+  	width: auto;
+  	float: right;
+  	margin-top: 30px;
+}
+.menu ul{
+  display: inline-flex;
+/*  margin: 40px;*/
+  list-style: none;
+  text-align: justify;
+/*  position: absolute;*/
+/*  right: 250px;
+  top: 20px;*/
+}
+.menu ul li{
+  margin: 10px 50px 10px 10px;
+  color: black;
+  cursor: pointer;
+}
+.menunormal{
+  padding: 10px 10px;
+}
+.aktif{
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px 10px;
+}
+.ig{
+  list-style: none;
+  font-size: 20px;
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+}
+.iggmbr{
+  width: 30px;
+  list-style: none;
+  bottom: 10px;
+  right: 145px;
+  position: absolute;
+}
+
+.judulweb{
+  padding: 10px;
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.judulweb img{
+  width: 100px;
+  height: 100px;
+}
+
+.judulweb h1{
+  font-size: 20px;
+}
+
+.matapelajaran{
+    
+    color: #000000;
+    top: 35%;
+    left: 70%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.SD{
+  margin-top: 20px;
+  margin-right: 50px;
+  margin: right;
+  right: 5px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20px 55px;
+  background-color: #b1e8ed;
+}
+.SMP{
+  margin-top: 40px;
+  margin: right;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20px 50px;
+  background-color: #b1e8ed;
+}
+.SMA{
+  margin-top: 60px;
+  margin: right;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20px 50px;
+  background-color: #b1e8ed;
+}
+.SMK{
+  margin-top: 80px;
+  margin: right;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20px 50px;
+  background-color: #b1e8ed;
