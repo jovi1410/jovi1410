@@ -164,6 +164,7 @@ top:70px;
     color: #000;
     font-size: 16px;
 }
+
 .loginbox input[type="password"] {
     border: none;
     border-bottom: 1px solid #000000;
@@ -173,7 +174,7 @@ top:70px;
     color: #000000;
     font-size: 16px;
 }
-.loginbox input[type="submit"] {
+.loginbox input[type="button"] {
     border: none;
     outline: none;
     height: 40px;
@@ -184,7 +185,7 @@ top:70px;
     position: relative;
     margin-top: 35 px;
 }
-.loginbox input[type="submit"]:hover {
+.loginbox input[type="button"]:hover {
     cursor: pointer;
     background: #42A5F5;
     color: #FFFFFF;
@@ -219,6 +220,24 @@ top:70px;
     margin-bottom: 20px;
 }
 .Daftarbox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.Daftarbox input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.Daftarbox input[type="email"] {
     border: none;
     border-bottom: 1px solid #000000;
     background: transparent;
@@ -338,5 +357,5 @@ label:hover{
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }*/
-@media
+
 
