@@ -1,0 +1,361 @@
+body{
+  background-image: url(2612371.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e6f8f9;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.text{
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top:200px;
+  width: 100%;
+}
+.textBankSoal{
+  text-align: left;
+  font-size: 50px;
+  position: absolute;
+  top:150px;
+  width: 100%;
+  left: 260px;
+}
+
+.menu{
+  width: 100%;
+  background-color: red;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 40px;
+  list-style: none;
+  text-align: justify;
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}
+.menu ul li{
+  margin: 10px 50px 10px 10px;
+  color: black;
+  cursor: pointer;
+}
+.daftarlogin{
+position: absolute;
+right: 150px;
+top:70px;
+}
+.menunormal{
+  padding: 10px 10px;
+}
+.aktif{
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px 10px;
+}
+.login{
+  right: 20px;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #b1e8ed;
+}
+.Daftar{
+  right: -100px;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #b1e8ed;
+}
+.judul{
+  font-size: 30px;
+  padding-right: 350px;
+  padding-left: 10px;
+  top: 120px;
+  position: absolute;
+}
+.ig{
+  list-style: none;
+  font-size: 20px;
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+}
+.iggmbr{
+  width: 30px;
+  list-style: none;
+  bottom: 10px;
+  right: 145px;
+  position: absolute;
+}
+.logo{
+  width: 100px;
+  list-style: none;
+  top: 12px;
+  left: 35px;
+  position: absolute;
+} 
+.form{
+      margin: auto;
+      width: 350px;
+      height: 350px;
+      padding: 20px;
+      text-align: center;
+      top: 250px;
+      right: 260px;
+      position: absolute;
+      font-size: 30px;
+}
+.input{
+  width: 200px;
+  height: 40px;
+}
+.button{
+  width: 200px;
+  height: 50px;
+}
+.body-login {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    /*background-position: center;*/
+    font-family: "Source Sans Pro";
+}
+.loginbox {
+    background: #FFFFFF;
+    color: #000000;
+    top: 30%;
+    left: 70%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.loginbox h1 {
+    margin-bottom: 29px;
+    padding: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.loginbox p {
+    font-family: "Source Sans Pro";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none; 
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.loginbox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.loginbox input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 35 px;
+}
+.loginbox input[type="button"]:hover {
+    cursor: pointer;
+    background: #42A5F5;
+    color: #FFFFFF;
+}
+.Daftarbox {
+    background: #FFFFFF;
+    color: #000000;
+    top: 20%;
+    left: 70%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.Daftarbox h1 {
+    margin-bottom: 29px;
+    padding: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.Daftarbox p {
+    font-family: "Source Sans Pro";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+.Daftarbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Daftarbox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.Daftarbox input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.Daftarbox input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.Daftarbox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.Daftarbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 25px;
+}
+.Daftarbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #42A5F5;
+    color: #FFFFFF;
+}
+
+.content{
+    height: 700px;
+    width: auto;
+    color: #000000;
+    padding: 20px 20px 20px 80px;
+    box-sizing: border-box;
+}
+
+.foto input[type=button]{
+    width: auto;
+    color: white;
+    background-color: #42A5F5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    position: absolute;
+    left: 50px;
+
+}
+
+input[type=button]:hover{
+    color: #42A5F5;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foto img{
+    height: 150px;
+    width: 150px;
+    border: 3px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.foto h1{
+   margin-top: 20px;
+   padding-left: 40px;
+ }
+
+.foto input[type="button"]{
+  display: inline-block;
+ }
+
+.profil{
+    float: right;
+    margin-right: 10%;
+    width: 700px;
+    height: auto;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    color: #000000;
+    padding: 30px 30px 30px 50px;
+    box-sizing: border-box;
+
+}
+
+.hide {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+/*label {
+    float: left;
+    height: 15.5px;
+    margin: 10px 0px 0px 0px;
+    width: auto;
+    color: white;
+    background-color: #42A5F5;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label:hover{
+    color: #050766;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+@media
+
