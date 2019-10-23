@@ -3,6 +3,22 @@
 <head>
   <title>Sukses UN</title>
     <link rel="stylesheet" href="stylepw1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    function validateForm(inputtxt) {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var letters = /^[A-Za-z]+$/;
+        if (username == "" || password == "" && inputtxt.value.match(letters)) {
+            alert("Username atau password Harus Diisi");
+        } else if (username < "a" || username > "z") {
+            alert("Username Harus Berupa Huruf Kecil")
+        } 
+        else{
+           window.location = "Homelogin.html" 
+        }
+    }
+</script>
 </head>
 <body>
    <body>
@@ -21,12 +37,12 @@
     </div>
    <div class="loginbox">
     <h1>Login</h1>
-      <form action="Homelogin.html">
+      <form onclick="validateForm()">
         <p>Username</p>
-        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="username" placeholder="Username" id="username">
         <p>Password</p>
-        <input type="password" name="password" placeholder="Password">
-        <input type="submit" name="submit" value="Login">
+        <input type="password" name="password" placeholder="Password" id="password">
+        <input type="button" onclick="validateForm()" value="Login">
     </form>
 </div>
       <ul>
