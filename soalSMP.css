@@ -1,0 +1,168 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c6cbef;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.daftarlogin{
+position: absolute;
+right: 150px;
+top:60px;
+}
+.daftarlogin a{
+  text-decoration: none;
+}
+
+.login{
+  right: 20px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 13pt;
+  background-color: #c6cbef;
+  font-weight: 600;
+}
+.Daftar{
+  right: -100px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 13pt;
+  background-color: #c6cbef;
+  font-weight: 600;
+}
+
+.menu{
+  width: 100%;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 40px;
+  list-style: none;
+  text-align: justify;
+  position: absolute;
+  right: 250px;
+  top: 10px;
+}
+.menu ul li{
+  margin: 10px 50px 10px 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+.menunormal{
+  padding: 10px 10px;
+}
+.menunormal a{
+  text-decoration: none;
+  color: white;
+}
+.kotakatas{
+  width: 100%;
+  height: 130px;
+  background-color:#494ca2;
+  box-shadow: 4px 0px 20px;
+}
+.aktif{
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px 10px;
+}
+.ig{
+  list-style: none;
+  font-size: 20px;
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+}
+.iggmbr{
+  width: 30px;
+  list-style: none;
+  bottom: 10px;
+  right: 145px;
+  position: absolute;
+}
+
+.judul{
+  font-size: 30px;
+  left: 150px;
+  top: 45px;
+  position: absolute;
+  color: white;
+}
+.logo{
+  width: 100px;
+  list-style: none;
+  top: 12px;
+  left: 35px;
+  position: absolute;
+} 
+
+
+.tempatkelas{
+  width: 45%;
+  height: 35vw;
+  background-color: none;
+  position: absolute;
+  right: 20px;
+}
+.tempatkelas h1{
+  font-size: 3vw;
+  display: block;
+  margin-top: 9%;
+}
+.tempatkelas img{
+  width: 7vw;
+  margin-top: 5%;
+
+}
+.binggris{
+  width: 40%;
+  height: 15vw;
+  left: 20px;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+
+}
+.matematika{
+  width: 40%;
+  height: 15vw;
+  right:  20px;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+
+}
+.bindonesia{
+  width: 40%;
+  height: 15vw;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+}
+.ipa{
+  width: 40%;
+  height: 15vw;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+}
