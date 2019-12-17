@@ -1,4 +1,4 @@
 <?php
 
 $myObj = new \stdClass();
-$myObj->PEMBAGIAN
+$myObj->TAHUN 2018
