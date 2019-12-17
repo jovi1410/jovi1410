@@ -42,14 +42,14 @@
          function setalbum() {
             document.getElementById('materi').innerHTML
                 +=
-                '<div class="submateri">' + '<a href="">' + 'PENJUMLAHAN' + '</a>' + '</div>';
+                '<div class="submateri">' + '<a href="" id="pokokmateri">' + '</a>' + '</div>';
         }
     function loadContent() {
             var xhr = new XMLHttpRequest();
             var url = "materi.php";
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("materi").innerHTML = this.responseText;
+                    document.getElementById("pokokmateri").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
