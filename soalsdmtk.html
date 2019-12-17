@@ -5,6 +5,17 @@
     <title>SUKSES UN</title>
     <link rel="stylesheet" href="soalsdmtk.css">
     <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".buka").click(function(){
+        $("#pokokmateri1").toggle();
+        $("#pokokmateri2").toggle();
+        $("#pokokmateri3").toggle();
+      });
+    });
+    </script>
+
 
   </head>
   <body>
@@ -31,26 +42,25 @@
       <div class="submateri"><a href="">PENJUMLAHAN</a></div>
       <div class="submateri"><a href="">PENJUMLAHAN</a></div>
       <div class="submateri"><a href="">PENJUMLAHAN</a></div>
+      <div class="submateri" id="pokokmateri1"><a href="" ></a></div>
+      <div class="submateri" id="pokokmateri2"><a href="" ></a></div>
+      <div class="submateri" id="pokokmateri3"><a href="" ></a></div>
     </div>
-    <button onclick="setalbum()">Materi Lainnya</button>
+    <button onclick="loadContent()">Materi Lainnya</button>
     <ul>
       <li class="ig"> @Sukses UN</li>
       <li><img class="iggmbr" src="instagram (3).png" ></li>
     </ul>
 
 <script type="text/javascript">
-         function setalbum() {
-           loadContent();
-            document.getElementById('materi').innerHTML
-                +=
-                '<div class="submateri">' + '<a href="" id="pokokmateri">' + '</a>' + '</div>';
-        }
     function loadContent() {
             var xhr = new XMLHttpRequest();
             var url = "materi.php";
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("pokokmateri").innerHTML = this.responseText;
+                    document.getElementById("pokokmateri1").innerHTML = this.responseText;
+                    document.getElementById("pokokmateri2").innerHTML = this.responseText;
+                    document.getElementById("pokokmateri3").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
