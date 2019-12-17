@@ -60,11 +60,19 @@
                 if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("pokokmateri1").innerHTML = this.responseText;
                     document.getElementById("pokokmateri2").innerHTML = this.responseText;
-                    document.getElementById("pokokmateri3").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
             xhr.send();
+      
+            var url = "materi.php";
+                  xhr.onreadystatechange = function () {
+                      if (this.readyState == 4 && this.status == 200) {
+                          document.getElementById("pokokmateri3").innerHTML = this.responseText;
+                      }
+                  };
+                  xhr.open("GET", url, true);
+                  xhr.send();
         }
 </script>
   </body>
