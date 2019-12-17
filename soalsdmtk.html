@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>SUKSES UN</title>
     <link rel="stylesheet" href="soalsdmtk.css">
+    <script src="jquery-3.4.1.min.js"></script>
+
   </head>
   <body>
    <div class="kotakatas">
@@ -41,6 +43,17 @@
             document.getElementById('materi').innerHTML
                 +=
                 '<div class="submateri">' + '<a href="">' + 'PENJUMLAHAN' + '</a>' + '</div>';
+        }
+    function loadContent() {
+            var xhr = new XMLHttpRequest();
+            var url = "materi.php";
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("komenlama").innerHTML = this.responseText;
+                }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
         }
 </script>
   </body>
