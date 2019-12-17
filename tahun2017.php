@@ -1,4 +1,4 @@
 <?php
 
 $myObj = new \stdClass();
-$myObj->PERKALIAN
+$myObj->TAHUN 2017
