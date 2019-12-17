@@ -53,6 +53,7 @@
     </ul>
 
 <script type="text/javascript">
+    loadPembagian();
     function loadContent() {
             var xhr = new XMLHttpRequest();
             var url = "materi.php";
@@ -64,8 +65,10 @@
             };
             xhr.open("GET", url, true);
             xhr.send();
-      
-            var url = "materi.php";
+        }
+        function loadPembagian() {
+                  var xhr = new XMLHttpRequest();
+                  var url = "materipembagian.php";
                   xhr.onreadystatechange = function () {
                       if (this.readyState == 4 && this.status == 200) {
                           document.getElementById("pokokmateri3").innerHTML = this.responseText;
@@ -73,7 +76,7 @@
                   };
                   xhr.open("GET", url, true);
                   xhr.send();
-        }
+              }
 </script>
   </body>
 </html>
