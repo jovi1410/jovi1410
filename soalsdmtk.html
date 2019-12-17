@@ -49,7 +49,7 @@
             var url = "materi.php";
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("komenlama").innerHTML = this.responseText;
+                    document.getElementById("maateri").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
