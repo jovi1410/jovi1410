@@ -9,8 +9,8 @@
     <script>
     $(document).ready(function(){
       $(".buka").click(function(){
-        $("#tahun2017").toggle();
-        $("#tahun2017").toggle();
+        $("#tahun2018").toggle();
+        $("#tahun2018").toggle();
       });
     });
     </script>
@@ -39,7 +39,7 @@
     <div class="materi" id="materi">
       <div class="submateri"><a href="">TAHUN 2017</a></div>
       <div class="submateri"><a href="">TAHUN 2017</a></div>
-      <div class="submateri" id="tahun2017"><a href="" ></a></div>
+      <div class="submateri" id="tahun2018"><a href="" ></a></div>
       <div class="submateri" id="tahun2018"><a href="" ></a></div>
     </div>
     <button class="buka" onclick="loadContent()">Soal Lainnya</button>
@@ -52,26 +52,15 @@
     loadPembagian();
     function loadContent() {
             var xhr = new XMLHttpRequest();
-            var url = "tahun2017.php";
+            var url = "tahun2018.php";
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("tahun2017").innerHTML = this.responseText;
+                    document.getElementById("tahun2018").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
             xhr.send();
         }
-        function loadPembagian() {
-                  var xhr = new XMLHttpRequest();
-                  var url = "tahun2018.php";
-                  xhr.onreadystatechange = function () {
-                      if (this.readyState == 4 && this.status == 200) {
-                          document.getElementById("tahun2018").innerHTML = this.responseText;
-                      }
-                  };
-                  xhr.open("GET", url, true);
-                  xhr.send();
-              }
 </script>
   </body>
 </html>
