@@ -9,9 +9,8 @@
     <script>
     $(document).ready(function(){
       $(".buka").click(function(){
-        $("#pokokmateri1").toggle();
-        $("#pokokmateri2").toggle();
-        $("#pokokmateri3").toggle();
+        $("#tahun2017").toggle();
+        $("#tahun2017").toggle();
       });
     });
     </script>
@@ -38,15 +37,12 @@
     <h1>Sekolah Dasar</h1>
     <h1>Matematika</h1>
     <div class="materi" id="materi">
-      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
-      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
-      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
-      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
-      <div class="submateri" id="pokokmateri1"><a href="" ></a></div>
-      <div class="submateri" id="pokokmateri2"><a href="" ></a></div>
-      <div class="submateri" id="pokokmateri3"><a href="" ></a></div>
+      <div class="submateri"><a href="">TAHUN 2017</a></div>
+      <div class="submateri"><a href="">TAHUN 2017</a></div>
+      <div class="submateri" id="tahun2017"><a href="" ></a></div>
+      <div class="submateri" id="tahun2018"><a href="" ></a></div>
     </div>
-    <button class="buka" onclick="loadContent()">Materi Lainnya</button>
+    <button class="buka" onclick="loadContent()">Soal Lainnya</button>
     <ul>
       <li class="ig"> @Sukses UN</li>
       <li><img class="iggmbr" src="instagram (3).png" ></li>
@@ -56,11 +52,10 @@
     loadPembagian();
     function loadContent() {
             var xhr = new XMLHttpRequest();
-            var url = "materi.php";
+            var url = "tahun2017.php";
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("pokokmateri1").innerHTML = this.responseText;
-                    document.getElementById("pokokmateri2").innerHTML = this.responseText;
+                    document.getElementById("tahun2017").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
@@ -68,10 +63,10 @@
         }
         function loadPembagian() {
                   var xhr = new XMLHttpRequest();
-                  var url = "materipembagian.php";
+                  var url = "tahun2018.php";
                   xhr.onreadystatechange = function () {
                       if (this.readyState == 4 && this.status == 200) {
-                          document.getElementById("pokokmateri3").innerHTML = this.responseText;
+                          document.getElementById("tahun2018").innerHTML = this.responseText;
                       }
                   };
                   xhr.open("GET", url, true);
