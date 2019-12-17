@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SUKSES UN</title>
+    <link rel="stylesheet" href="soalsdmtk.css">
+  </head>
+  <body>
+   <div class="kotakatas">
+    <h1 class="judul">Sukses UN</h1>
+    <img class="logo" src="logo.png">
+    <div class="menu">
+      <ul> 
+        <li class="menunormal"><a href="homelogin.html">Home</a></li>
+        <li class="menunormal"><a href="banksoal.html">Bank Soal</a></li>
+        <li class="menunormal"><a href="AboutUS.html">About Us</a></li>
+      </ul>
+    </div>
+    <div class="daftarlogin">
+        <a class="Daftar" href="index.html"> Logout</a>
+        <a class="login" href="profil.html"> Profil</a>
+    </div>
+    </div>
+    
+    <h1>Sekolah Dasar</h1>
+    <h1>Matematika</h1>
+    <div class="materi" id="materi">
+      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
+      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
+      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
+      <div class="submateri"><a href="">PENJUMLAHAN</a></div>
+    </div>
+    <button onclick="setalbum()">Materi Lainnya</button>
+    <ul>
+      <li class="ig"> @Sukses UN</li>
+      <li><img class="iggmbr" src="instagram (3).png" ></li>
+    </ul>
+
+<script type="text/javascript">
+         function setalbum() {
+            document.getElementById('materi').innerHTML
+                +=
+                '<div class="submateri">' + '<a href="">' + 'PENJUMLAHAN' + '</a>' + '</div>';
+        }
+</script>
+  </body>
+</html>
