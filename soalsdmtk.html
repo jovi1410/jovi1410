@@ -56,6 +56,8 @@
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("tahun2018").innerHTML = this.responseText;
+                  
+                    document.getElementById("tahun2018a").innerHTML = this.responseText;
                 }
             };
             xhr.open("GET", url, true);
